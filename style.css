@@ -27,7 +27,7 @@ body {
 }
 
 #content > .container > div {
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 #about, #my-work, #contact-me {
@@ -52,8 +52,6 @@ body {
 
   list-style-type: none;
   text-align: center;
-  background-color: #3c362f;
-  color: #f9f4f0;
 }
 
 .menu a {
@@ -135,8 +133,7 @@ td {
 }
 
 .item-info {
-  border: 1px solid red;                    /* 標示用，排版完記得拿掉 */
-  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+  background-color: rgba(255,255,255,.8);
 
   position: absolute;
   top: 0;
@@ -150,6 +147,10 @@ td {
 
   opacity: 0;
   display: none;
+}
+
+.item-info h3 {
+  color: #ff934c;
 }
 
 .item:hover .item-info {
